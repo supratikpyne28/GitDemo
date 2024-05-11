@@ -22,7 +22,7 @@ public class ProductCatalog extends AbstractComponent{
 		
 		}
 	
-	//WebElement email=driver.findElement(By.id("userEmail"));
+	
 	@FindBy(css=".mb-3")//PageFactory model to find locators in selenium
 	List<WebElement> products;
 	

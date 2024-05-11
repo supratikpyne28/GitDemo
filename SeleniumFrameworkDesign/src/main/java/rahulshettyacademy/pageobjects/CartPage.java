@@ -20,7 +20,7 @@ public class CartPage extends AbstractComponent{
 		
 		}
 	
-	//WebElement email=driver.findElement(By.id("userEmail"));
+	
 	@FindBy(css=".cartSection h3")//PageFactory model to find locators in selenium
 	private List<WebElement> cartProducts;
 	
